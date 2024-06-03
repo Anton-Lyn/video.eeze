@@ -2,8 +2,8 @@ spring:
   application:
     name: Video Stream Platform
   datasource:
-    username: postgres
-    password: admin
+    username: ${USERNAME}
+    password: ${PASSWORD}
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/eeze
     platform: postgresql
